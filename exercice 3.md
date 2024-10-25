@@ -1,5 +1,5 @@
 #### 1. Donne une ligne de commande bash qui permet de lister la liste des utilisateurs d'un système Linux :  
-`cat /etc/passwd | grep -q "$^user:"`  
+`cat /etc/passwd`  
 
 #### 2. Quelle commande bash permet de changer les droits du fichier myfile en rwxr—r-- ?  
 `chmod 744 myfile`  
@@ -27,7 +27,7 @@ Et ensuite j'aurais d'instinct envie de faire un `git commit` et un `git push or
 `- "Même des tildes ~ ?"`  
 `- "Evidemment !"`  
   
-Je pense s'implement utiliser une commande echo avec des guillemets simples pour interprêter le texte littéralement  
+**Je pense s'implement utiliser une commande echo avec des guillemets simples pour interprêter le texte littéralement :**  
 `echo 'Malgré le prix élevé de 100$, il a dit "Bonjour !" au vendeur :`  
 `- "Bonjour est-ce que ce clavier fonctionne bien ?"`  
 `- "Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\ !"`  
