@@ -15,7 +15,10 @@
 `git commit -m "Les fichiers PDF sont maintenant ignorés"`  
 `git push`  
 
-#### Question 4 Quelles commandes git utiliser pour fusionner les branches main et test_valide ?  
+```diff
++ Question 4 POST CORRECTION
+```
+Je ferais en premier la commande `git checkout main` pour revenir dans la branche main et ensuite la commande `git_merge` pour fusionner la branche test_valide à la branche main.
 
 #### Question 5 
 **Je pense s'implement utiliser une commande echo avec des guillemets simples pour interprêter le texte littéralement :**  
@@ -25,9 +28,16 @@
 `- "Même des tildes ~ ?"`  
 `- "Evidemment !"'`  
 
-Je suppose que ce qui était attendu était de mettre des backslash "\" devant tous les caractères qu'on souhaite interpréter littéralement ? J'ai failli écrire que c'était une possibilité, mais que ma solution me semblait plus efficace et plus consise.
+Je suppose que ce qui était attendu était de mettre un backslash "\\" devant tous les caractères qu'on souhaite interpréter littéralement ? J'ai failli écrire que c'était une possibilité, mais que ma solution me semblait plus efficace et plus consise.
 
-#### Question 6 
+```diff
++ Question 6 POST CORRECTION
+```
+Après recherche, j'utiliserais la commande suivante : `fg %1`  
+De ce que j'ai compris :  
+`fg` : Cette commande permet de ramener un job en avant-plan.  
+`%1` : Référence le numéro de job [1] pour le processus _gedit_.  
+Ainsi, _gedit_ passera de son fonctionnement en arrière-plan à un fonctionnement à l'avant-plan.  
   
 #### Question 7 
 La couche 2 représente les liens physiques, donc le matériel correspondant sont les bridges (relie des réseaux physiques différents entre eux) et les switch (relie des parties physiques d'un même réseau entre elles)  
