@@ -18,7 +18,7 @@
 ```diff
 + Question 4 POST CORRECTION
 ```
-Je ferais en premier la commande `git checkout main` pour revenir dans la branche main et ensuite la commande `git_merge` pour fusionner la branche test_valide à la branche main.
+Je ferais en premier la commande `git checkout main` pour revenir dans la branche main et ensuite la commande `git_merge test_valide` pour fusionner la branche test_valide à la branche main.
 
 #### Question 5 
 **Je pense s'implement utiliser une commande echo avec des guillemets simples pour interprêter le texte littéralement :**  
